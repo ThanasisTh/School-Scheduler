@@ -1,0 +1,16 @@
+kodikos-mathima-taxi-ores
+1-Neoelliniki glossa-a3,b2,c2
+2-mathimatika-a4,b4,c4
+3-fusiki-a1,b2,c2
+4-ximeia-b1,c1
+5-biologia-a1,b1,c1
+6-geografia-a1,b2
+7-kpa-c2
+8-thriskeftika-a2,b2,c2
+9-agglika-a2,b2,c2
+10-germanika-a2,b2,c2
+11-gumnastiki-a2,b2,c2
+12-texnologia-a1,b1,c1
+13-pliroforiki-a1,b1,c1
+14-mousiki-a1,b1,c1
+15-kallitexnika-a1,b1,c1
