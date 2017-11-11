@@ -1,25 +1,25 @@
-package src;
 
 public class Lesson {
 	
-	private String LKey, LName, LClass;
-	private int LHours;
+	private String LName;
+	private char LClass;
+	private int LKey, LHours;
 	
 	public Lesson() {
-		this.LKey = null;
+		this.LKey = 0;
 		this.LName = null;
-		this.LClass = null;
+		this.LClass = '\u0000';
 		this.LHours = 0;
 	}
 	
-	public Lesson(String LKey, String LName, String LClass, int LHours) {
+	public Lesson(int LKey, String LName, char LClass, int LHours) {
 		this.LKey = LKey;
 		this.LName = LName;
 		this.LClass = LClass;
 		this.LHours = LHours;
 	}
 	
-	public void setKey(String LKey) {
+	public void setKey(int LKey) {
 		this.LKey = LKey;
 	}
 	
@@ -27,7 +27,7 @@ public class Lesson {
 		this.LName = LName;
 	}
 	
-	public void setLClass(String LClass) {
+	public void setLClass(char LClass) {
 		this.LClass = LClass;
 	}
 	
@@ -39,7 +39,7 @@ public class Lesson {
 		this.LHours--;
 	}
 
-	public String getKey() {
+	public int getKey() {
 		return this.LKey;
 	}
 	
@@ -47,7 +47,7 @@ public class Lesson {
 		return this.LName;
 	}
 	
-	public String getLClass() {
+	public char getLClass() {
 		return this.LClass;
 	}
 

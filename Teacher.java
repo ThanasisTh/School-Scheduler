@@ -2,19 +2,19 @@ import java.util.Vector;
 
 public class Teacher {
 	
-	private String tKey, tName;
-	private Vector<String> lKeys;
+	private String tName;
+	private Vector<Integer> lKeys;
 	private int[] tDayHours = {0, 0, 0, 0, 0};
-	private int tWeekHours;
+	private int tWeekHours, tKey;
 	
 	public Teacher() {
-		this.tKey = null;
+		this.tKey = 0;
 		this.tName = null;
 		this.lKeys = null;
 		this.tWeekHours = 0;
 	}
 	
-	public Teacher(String TKey, String TName, Vector<String> LKeys, int[] THours, int TWeekHours) {
+	public Teacher(int TKey, String TName, Vector<Integer> LKeys, int[] THours, int TWeekHours) {
 		this.tKey = TKey;
 		this.tName = TName;
 		this.lKeys = LKeys;
@@ -22,7 +22,7 @@ public class Teacher {
 		this.tWeekHours = TWeekHours;
 	}
 	
-	public void setKey(String TKey) {
+	public void setKey(int TKey) {
 		this.tKey = TKey; 	
 	}
 	
@@ -30,7 +30,7 @@ public class Teacher {
 		this.tName = TName;
 	}
 	
-	public void setTClass(Vector<String> LKeys) {
+	public void setTClass(Vector<Integer> LKeys) {
 		this.lKeys = LKeys;
 	}
 	
@@ -42,7 +42,7 @@ public class Teacher {
 		this.tWeekHours--;
 	}
 
-	public String getKey() {
+	public int getKey() {
 		return this.tKey;
 	}
 	
@@ -50,7 +50,7 @@ public class Teacher {
 		return this.tName;
 	}
 	
-	public Vector<String> getLKeys() {
+	public Vector<Integer> getLKeys() {
 		return this.lKeys;
 	}
 
